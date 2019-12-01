@@ -1,6 +1,17 @@
-<h2> Countries</h2>
-    <div id="map_chart" [chartData]="map_ChartData" 
-    [chartOptions] = "map_ChartOptions"
-     chartType="GeoChart" GoogleChart>
-    </div>
+<mat-tab-group #tabGroup (selectedTabChange)="tabChanged($event)">
+    <mat-tab label="First" > 
+           countries vistied
+    </mat-tab>
+    <mat-tab label="Second" >
+            Perccom
+    </mat-tab>
+    <mat-tab label="Third" > 
+            blah
+    </mat-tab>
+  </mat-tab-group>
    
+   
+  <div id="map_chart" [chartData]="map_ChartData" 
+  [chartOptions] = "map_ChartOptions"
+   chartType="GeoChart" GoogleChart>
+  </div>
