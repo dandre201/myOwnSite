@@ -2,6 +2,11 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import {GoogleChart} from './angular2-google-chart.directive';
 import {MatTabsModule} from '@angular/material/tabs';
+import {MatExpansionModule} from '@angular/material/expansion';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatInputModule} from '@angular/material';
+
+
 
 
 
@@ -30,6 +35,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     AppRoutingModule,
     BrowserAnimationsModule,
     MatTabsModule,
+    MatExpansionModule,
+    MatFormFieldModule,
+    MatInputModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

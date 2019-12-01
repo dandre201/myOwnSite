@@ -1,3 +1,84 @@
 <div class="content" role="main">
     <h2>cv page</h2>
-    </div>
+</div>
+
+<mat-accordion>
+    <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+        <mat-expansion-panel-header>
+            <mat-panel-title>
+                About me
+            </mat-panel-title>
+            <mat-panel-description>
+                this is quick info -see /about for more details
+            </mat-panel-description>
+        </mat-expansion-panel-header>
+
+        <p>i am blah....</p>
+    </mat-expansion-panel>
+
+    <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+        <mat-expansion-panel-header>
+            <mat-panel-title>
+                Education
+            </mat-panel-title>
+            <mat-panel-description>
+                This is long but I have a masters or two
+            </mat-panel-description>
+        </mat-expansion-panel-header>
+        <p> Perccom
+            UWS
+            Cali
+        </p>
+    </mat-expansion-panel>
+
+    <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+        <mat-expansion-panel-header>
+            <mat-panel-title>
+                Work
+            </mat-panel-title>
+            <mat-panel-description>
+                current work (TJX Europe)
+            </mat-panel-description>
+        </mat-expansion-panel-header>
+        <p> my day to day job</p>
+    </mat-expansion-panel>
+
+    <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+        <mat-expansion-panel-header>
+            <mat-panel-title>
+                computer skills
+            </mat-panel-title>
+            <mat-panel-description>
+                quick run down of the current stack and previous ones
+            </mat-panel-description>
+        </mat-expansion-panel-header>
+        <p> from work: c# , angular, sql , </p>
+    </mat-expansion-panel>
+
+    <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+        <mat-expansion-panel-header>
+            <mat-panel-title>
+                non-related work experience
+            </mat-panel-title>
+            <mat-panel-description>
+                Mostly retail jobs while studying
+            </mat-panel-description>
+        </mat-expansion-panel-header>
+        <p> tk maxx
+            Jd sports
+        </p>
+    </mat-expansion-panel>
+
+    <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+        <mat-expansion-panel-header>
+            <mat-panel-title>
+                other
+            </mat-panel-title>
+            <mat-panel-description>
+               Other things I find relevent
+            </mat-panel-description>
+        </mat-expansion-panel-header>
+        <p> Awarded perccom</p>
+    </mat-expansion-panel>
+
+</mat-accordion>

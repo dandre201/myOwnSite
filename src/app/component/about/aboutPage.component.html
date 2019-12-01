@@ -1,3 +1,22 @@
 <div class="content" role="main">
     <h2>about page</h2>
-    </div>
+</div>
+<p>This is a less formal page than the CV, Where I will talk about things I like. Tech, food, places, hobbies, ETC.</p>
+
+
+<mat-accordion>
+    <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+        <mat-expansion-panel-header>
+            <mat-panel-title>
+                About me
+            </mat-panel-title>
+            <mat-panel-description>
+                this is quick info -see /about for more details
+            </mat-panel-description>
+        </mat-expansion-panel-header>
+
+        <p>i guess general.. then travel... tech... music...</p>
+    </mat-expansion-panel>
+
+
+</mat-accordion>
