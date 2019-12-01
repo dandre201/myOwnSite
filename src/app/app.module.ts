@@ -6,16 +6,15 @@ import {MatExpansionModule} from '@angular/material/expansion';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material';
 
-
-
-
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { mapComponent }  from './component/map/map.component';
 import { landingPageComponent }  from './component/landingPage/landingPage.component';
 import { cvPageComponent }  from './component/cv/cvPage.component';
 import { aboutPageComponent }  from './component/about/aboutPage.component';
+import { funMainComponent }  from './component/fun/funMain.component';
+
+
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
@@ -28,6 +27,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     landingPageComponent,
     cvPageComponent,
     aboutPageComponent,
+    funMainComponent,
     GoogleChart,
   ],
   imports: [

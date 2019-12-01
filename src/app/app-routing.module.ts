@@ -7,8 +7,7 @@ import { mapComponent }  from './component/map/map.component';
 import { landingPageComponent }  from './component/landingPage/landingPage.component';
 import { cvPageComponent }  from './component/cv/cvPage.component';
 import { aboutPageComponent }  from './component/about/aboutPage.component';
-
-
+import { funMainComponent }  from './component/fun/funMain.component';
 
 
 const routes: Routes = [
@@ -16,6 +15,7 @@ const routes: Routes = [
   { path: 'map', component: mapComponent },
   { path: 'cv', component: cvPageComponent },
   { path: 'about', component: aboutPageComponent },
+  { path: 'fun', component: funMainComponent },
 
 
 ];
